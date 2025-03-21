@@ -44,9 +44,10 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 
+
 print("\nAaron Bushouse and Maddod Greenspoon")
 print("Program Name: ")
-print("Date: ")
+print("Date: 3.20.25")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
@@ -58,8 +59,14 @@ try:
 
         sendmsg('command', 0)
         sendmsg('takeoff')
-        sendmsg('forward 100')
+        sendmsg('forward 100',6)
         sendmsg('ccw 90')
+        sendmsg('forward 100',6)
+        sendmsg('ccw 90')
+        sendmsg('forward 100', 6)
+        sendmsg('ccw 90')
+
+
         sendmsg('land')
 
         print('\nGreat Flight!!!')
