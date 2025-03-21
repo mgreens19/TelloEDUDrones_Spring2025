@@ -45,7 +45,7 @@ recvThread.start()
 
 
 
-print("\nAaron Bushouse and Maddod Greenspoon")
+print("\nAaron Bushouse and Maddox Greenspoon")
 print("Program Name: ")
 print("Date: 3.20.25")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
