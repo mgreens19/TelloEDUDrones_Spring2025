@@ -64,7 +64,8 @@ try:
         sendmsg('forward 100', 6)
         sendmsg('ccw 90')
         sendmsg('forward 100', 6)
-        sendmsg('forward 100')
+        sendmsg('ccw 90')
+        sendmsg('forward 100',6)
 
         sendmsg('land')
 
