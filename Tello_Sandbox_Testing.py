@@ -60,6 +60,7 @@ try:
         sendmsg('command', 0)
         sendmsg('battery?',8)
         sendmsg('takeoff')
+
         sendmsg('forward 100',6)
         sendmsg('ccw 90')
         sendmsg('forward 100', 6)
@@ -68,6 +69,9 @@ try:
         sendmsg('ccw 90')
         sendmsg('forward 100',6)
         sendmsg('ccw 90')
+
+
+        
         sendmsg('land')
 
         print('\nGreat Flight!!!')
