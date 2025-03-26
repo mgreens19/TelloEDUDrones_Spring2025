@@ -61,13 +61,14 @@ try:
         sendmsg('battery?')
 
         #  Commit message: First HOOP - STABLE
+        """
         sendmsg('forward 150',8)
-        
+        """
 
         #  Commit message: Second HOOP - STABLE
-        """
+
         sendmsg('go 150 0 35 70', 8)
-        """
+
 
         #  Commit message: Third HOOP - STABLE
 
