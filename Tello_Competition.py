@@ -60,8 +60,8 @@ try:
         sendmsg('takeoff')
 
         #  Commit message: First HOOP - STABLE
-
-
+        sendmsg('go 170 50 0',8)
+        
 
         #  Commit message: Second HOOP - STABLE
 
