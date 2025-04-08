@@ -59,7 +59,7 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
         sendmsg('battery?',8)
-
+        """
         #  Commit message: First HOOP - STABLE
 
         sendmsg('forward 155',8)
@@ -68,11 +68,11 @@ try:
         #  Commit message: Second HOOP - STABLE
 
         sendmsg('go 150 0 35 70', 8)
-
+        """
 
         #  Commit message: Third HOOP - STABLE
 
-        sendmsg('curve 100 100 0 0 200 0 50' )
+        sendmsg('curve 100 0 0 200 300 10 50',16 )
 
 
 
